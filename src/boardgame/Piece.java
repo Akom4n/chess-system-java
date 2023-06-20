@@ -11,6 +11,7 @@ public class Piece {
 		position = null;
 	}
 
+	//Tabuleiro como protegido pois é apenas para uso interno do chess. 
 	protected Board getBoard() {
 		return board;
 	}
