@@ -55,6 +55,7 @@ public class UI {
 		System.out.println(" a b c d e f g h");
 	}
 	
+	//Mostra os movimentos possivels com fundo azul da peça escolhida
 	public static void printBoard(ChessPiece[][] pieces, boolean[][] possibleMoves) {
 		for (int i = 0; i < pieces.length; i++) {
 			System.out.println((8 - i) + " ");
